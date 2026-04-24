@@ -175,13 +175,14 @@
       display: flex;
       align-items: baseline;
       justify-content: center;
-      gap: 10px;
+      gap: 8px;
       margin-bottom: 6px;
+      white-space: nowrap;
     }
 
     .amount-currency {
       font-family: 'Syne', sans-serif;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 600;
       color: var(--subtext);
       letter-spacing: 1px;
@@ -189,10 +190,10 @@
 
     .amount {
       font-family: 'Syne', sans-serif;
-      font-size: 44px;
+      font-size: clamp(28px, 9vw, 42px);
       font-weight: 800;
       color: var(--nuit);
-      letter-spacing: -2px;
+      letter-spacing: -1px;
       line-height: 1;
     }
 
