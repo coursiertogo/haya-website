@@ -173,33 +173,35 @@
 
     .amount-row {
       display: flex;
-      align-items: baseline;
-      justify-content: center;
-      gap: 8px;
+      flex-direction: column;
+      align-items: center;
+      gap: 0px;
       margin-bottom: 6px;
-      white-space: nowrap;
     }
 
     .amount-currency {
-      font-family: 'Syne', sans-serif;
-      font-size: 15px;
-      font-weight: 600;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
       color: var(--subtext);
-      letter-spacing: 1px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
     }
 
     .amount {
       font-family: 'Syne', sans-serif;
-      font-size: clamp(28px, 9vw, 42px);
+      font-size: 52px;
       font-weight: 800;
       color: var(--nuit);
-      letter-spacing: -1px;
+      letter-spacing: -2px;
       line-height: 1;
     }
 
     .amount-eur {
       font-size: 14px;
       color: var(--subtext);
+      margin-top: 4px;
     }
 
     /* Details */
